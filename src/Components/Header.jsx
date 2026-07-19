@@ -1,18 +1,19 @@
 import Logotip from "../Img/Logotip.png"
-
+import { Link } from "react-router"
 const Header = () => {
 
     return(
     <> 
     <header className="Header">
-        <img src={Logotip} alt="" className="logotipHeader"/>
+        <Link to="/" onClick={() => window.scrollTo(0, 0)}><img src={Logotip} alt="" className="logotipHeader"/></Link>
         <div className="headerText">
-            <p className="headerOptions">Home</p>
-            <p className="headerOptions">About Us</p>
-            <p className="headerOptions">Services</p>
-            <p className="headerOptions">Our Teams</p>
+            <Link to="/" onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Home</p></Link>
+            <Link to="/AboutUs" onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">About Us</p></Link>
+            <Link onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Services</p></Link>
+            <Link onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Our Teams</p></Link>
             <button className="btnHeader">Contact Us</button>
         </div>
+    
     </header>
     </>
     )

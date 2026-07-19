@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         </div>
         <div className="EndPage">
-            <img src={Logotip} alt="" className="logotipHeader"/>
+            <img src={Logotip} alt="" className="logotipHeader FooterLogo"/>
             <div className="Email">
                 <label className="EmailText">Enter  your email to get the laterst news</label>
                 <input type="email" name="Email Address" id="EmailWtf" placeholder="Email Address" />
