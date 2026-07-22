@@ -11,7 +11,7 @@ const FirstPage = () => {
     
     <FirstScreen/>
     <About/>
-    <Service/>
+    <Service />
     <Product/>
     <Material/>
     </>

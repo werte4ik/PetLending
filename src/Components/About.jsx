@@ -1,7 +1,7 @@
 const About = () => {
     return(
         <>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="1000">
         <div className="AboutFP">ABOUT</div>
         <div className="quote">“We're one of the best furniture agency. Prioritizing customers <br /> and making purchases easy are the hallmarks of our agency.”</div>
         <div>

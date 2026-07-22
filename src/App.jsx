@@ -5,8 +5,14 @@ import AboutUs from './Pages/SecondPage';
 import FirstPage from './Pages/FirstPage';
 import Index from './Pages/Index'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ServicesPage from './Pages/ServicesPage';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function App() {
-
+useEffect(() => {
+    Aos.init(); 
+  },);
 
   return (
     <>
@@ -15,6 +21,7 @@ function App() {
         <Route path='/' element={<Index />}>
           <Route index element={<FirstPage />} />
           <Route path="/AboutUs" element = {<AboutUs/>}/>
+          <Route path="/Services" element = {<ServicesPage/>}/>
         </Route>
 
       </Routes>

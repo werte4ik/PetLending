@@ -215,6 +215,14 @@ header{
   display: grid;
   grid-template-columns: 65px 746px 72px;
   align-items: center;
+  transition: background-color 0.8s ease;
+}
+.AccordionList{
+  gap: 40px;
+}
+.Accordion:hover{
+  background-color: rgb(240, 240, 240);
+  
 }
 .ContentArc{
   display: grid;
@@ -241,7 +249,7 @@ header{
 }
 .Rotate{
   transform-origin: center center;
-  transform: rotate(90deg);
+  transform: rotate(90deg) translate(-5px, -10px);
 }
 .AccArrow {
   display: inline-block;
@@ -251,6 +259,9 @@ header{
   z-index: 10;
   position: absolute;
   background-color: white;
+}
+.AccordionsAlot{
+  align-items: center;
 }
 .LivinRoomImg{
   margin-left: 10%;
@@ -262,11 +273,11 @@ header{
   float: right;
 }
 .AccBig{
-grid-template-columns: 120px 1048px 32px;
+grid-template-columns: 120px 1020px 60px;
+align-items: center;
 }
 .AccBig .AccText{
   font-size: 32px;
-  margin-bottom: 0;
 }
 .AccordionOpen.AccBig{
   margin-left: 9%;
@@ -325,6 +336,7 @@ margin-top: -6%;
   padding: 3% 6%;
   background-color: white;
   border: none;
+  cursor: pointer;
 }
 .FooterMini{
   color: white;
@@ -370,7 +382,7 @@ text-decoration: none;
 }
 .FooterLogo{
   width: 10%;
-}
+} 
 .StartOfPagesText{
   font-size: 56px;
   font-weight: 700;
@@ -416,4 +428,21 @@ text-decoration: none;
 .serviceCards{
   display: flex;
   gap: 18px;
+}
+.ServicePagePhoto{
+  width: 746px;
+  min-width: 746px;
+  height: 365px;
+}
+.ServiceAchivSection{
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  margin-bottom: 4%;
+}
+.AchText{
+  max-width: 99%;
+}
+.TopMargin{
+  margin-top: 4.5%;
 }
