@@ -446,3 +446,26 @@ text-decoration: none;
 .TopMargin{
   margin-top: 4.5%;
 }
+.PersonalCard{
+  width: 282px;
+  height: 400px;
+  background-color:#2C3878 ;
+  display: flex;
+  justify-content: center;
+}
+.AboutPerson{
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 258px;
+  height: 96px;
+  margin-top: 15%;
+}
+.Text{
+  margin-left: 5%;
+}
+.DesignersStand{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 1%;
+}
