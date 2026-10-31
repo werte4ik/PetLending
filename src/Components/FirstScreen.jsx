@@ -1,5 +1,5 @@
 import BlueText from "./BlueText"
-
+import Kitchen1 from  "../Img/Kitchen1.jpg"
 const FirstScreen = () => {
 
     return(
@@ -17,7 +17,7 @@ const FirstScreen = () => {
         <div className="ContentFP">
         
         
-        <img src="src/Img/Kitchen1.jpg" alt="" className="KitchenImg"/>
+        <img src={Kitchen1} alt="" className="KitchenImg"/>
         
         </div>
         

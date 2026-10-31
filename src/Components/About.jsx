@@ -1,3 +1,5 @@
+import KitchenImg from "../Img/Kitchen2.jpg"
+import CeoPhoto from "../Img/CeoPhoto.png"
 const About = () => {
     return(
         <>
@@ -7,7 +9,7 @@ const About = () => {
         <div>
         <div className="IdkHowName">
             <div className="Content">
-            <img src="../src/Img/CeoPhoto.png" alt=""  className="CeoPhoto"/>
+            <img src={CeoPhoto} alt=""  className="CeoPhoto"/>
             <div className="TextContent">
                 <p className="Author">Arga Danaan</p>
                 <p className="position" >CEO of Dananz</p>
@@ -18,7 +20,7 @@ const About = () => {
         <p className="TextAbout">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
         <button className="BtnMore"><p>Learn More</p></button>
         </div>
-        <img src="../src/Img/Kitchen2.jpg" alt="" className="KitchenImg2"/>
+        <img src={KitchenImg} alt="" className="KitchenImg2"/>
         
         </div>
 

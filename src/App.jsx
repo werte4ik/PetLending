@@ -17,7 +17,7 @@ useEffect(() => {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/PetLending">
       <Routes>
         <Route path='/' element={<Index />}>
           <Route index element={<FirstPage />} />

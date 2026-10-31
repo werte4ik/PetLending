@@ -1,4 +1,5 @@
 import Accor from "./Accordion"
+import ServiceImg from "../Img/service-section-image.jpg"
 const Service = () => {
     return(
         <>
@@ -12,7 +13,7 @@ const Service = () => {
         <Accor number = "02" name = "Consultant" DopClass = ""/>
         <Accor number = "03" name = "Construction Consultant" DopClass = ""/>
         </div>     
-        <img src="../src/Img/service-section-image.jpg" alt="" className="KitchenImg2 LivinRoomImg" />
+        <img src={ServiceImg} alt="" className="KitchenImg2 LivinRoomImg" />
 
         </>
     )

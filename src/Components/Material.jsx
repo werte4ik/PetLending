@@ -1,17 +1,20 @@
+import Mat1 from "../Img/Mat1.jpg"
+import Mat2 from "../Img/Mat2.jpg"
+import Mat3 from "../Img/Mat3.jpg"
 const Material = () => {
     return(
         <>
         <section>
             <div className="MaterialImgs">
-                <div className="MaterialImg2"><img src="../src/Img/Mat2.jpg" alt="" /></div>
-                <div className="MaterialImg3"><img src="../src/Img/Mat3.jpg" alt="" /></div>
+                <div className="MaterialImg2"><img src={Mat2} alt="" /></div>
+                <div className="MaterialImg3"><img src={Mat3} alt="" /></div>
             </div>
            
            <div className="AboutFP AnotherMargin">MATERIAL</div>
             
             <div className="Images">
                 <div className="MaterialImg1">
-                <img src="../src/Img/Mat1.jpg" alt="" />
+                <img src={Mat1} alt="" />
                 </div>
            </div>
            
