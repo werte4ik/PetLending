@@ -4,13 +4,13 @@ import Mat3 from "../Img/Mat3.jpg"
 const Material = () => {
     return(
         <>
-        <section>
+        <section className="MaterialSection">
             <div className="MaterialImgs">
                 <div className="MaterialImg2"><img src={Mat2} alt="" /></div>
                 <div className="MaterialImg3"><img src={Mat3} alt="" /></div>
             </div>
            
-           <div className="AboutFP AnotherMargin">MATERIAL</div>
+           <div className="AboutFP AnotherMargin MaterialFullWidth">MATERIAL</div>
             
             <div className="Images">
                 <div className="MaterialImg1">
@@ -18,9 +18,9 @@ const Material = () => {
                 </div>
            </div>
            
-           <p className="AccText MaterialText">choice of materials for quality furniture.</p> 
-           <p className="TextAbout TextMaterialMini">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
-            <button className="BtnMaterial">See Materials</button>
+           <p className="AccText MaterialText MaterialFullWidth">choice of materials for quality furniture.</p>
+           <p className="TextAbout TextMaterialMini MaterialFullWidth">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
+            <button className="BtnMaterial MaterialFullWidth">See Materials</button>
         </section>
         </>
     )

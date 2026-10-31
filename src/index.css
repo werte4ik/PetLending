@@ -469,3 +469,444 @@ text-decoration: none;
   gap: 24px;
   margin-top: 1%;
 }
+
+@media (max-width: 768px) {
+  #root {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px 16px;
+    padding: 10px 0;
+  }
+
+  .Header > a {
+    width: 120px;
+  }
+
+  .logotipHeader {
+    width: 100%;
+  }
+
+  .headerText {
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 20px;
+    font-size: 14px;
+  }
+
+  .headerText p {
+    margin: 8px 0;
+  }
+
+  .btnHeader {
+    min-height: 38px;
+    padding: 0 16px;
+  }
+
+  .MainText {
+    font-size: clamp(38px, 8vw, 56px);
+    line-height: 1.2;
+  }
+
+  .MainText::after {
+    display: none;
+  }
+
+  .StartPage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .StartPage2 {
+    position: static;
+    order: 3;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: -20px 0 0;
+    padding: 0 12px;
+  }
+
+  .StartPage2 .BlueText,
+  .AchievmentDrop .BlueText {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+    padding: 12px 8px;
+    box-shadow: 0 8px 20px rgba(44, 56, 120, 0.18);
+  }
+
+  .StartPage2 .TextBlueDiv,
+  .AchievmentDrop .TextBlueDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    margin: 0;
+    padding: 4px;
+  }
+
+  .StartPage2 .TextBlueDiv + .TextBlueDiv,
+  .AchievmentDrop .TextBlueDiv + .TextBlueDiv {
+    border-left: 1px solid rgba(255, 255, 255, 0.28);
+  }
+
+  .StartPage2 .TextBlueDiv .TextBlueDiv,
+  .AchievmentDrop .TextBlueDiv .TextBlueDiv {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .StartPage2 .UnderNumberText,
+  .AchievmentDrop .UnderNumberText {
+    margin: 4px 0 0;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  .TextRotate {
+    display: none;
+  }
+
+  .StartPage > .MainText {
+    order: 1;
+  }
+
+  .ContentFP {
+    order: 2;
+  }
+
+  .KitchenImg,
+  .KitchenImg2 {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+  }
+
+  .AboutFP {
+    margin-top: 48px;
+  }
+
+  .quote {
+    font-size: clamp(24px, 5vw, 32px);
+    line-height: 1.45;
+  }
+
+  .quote br,
+  .TextProduct br {
+    display: none;
+  }
+
+  .IdkHowName {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 16px 0;
+    padding: 8px 0;
+  }
+
+  .Content {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .TextContent {
+    margin-left: 16px;
+  }
+
+  .AroundImg {
+    float: none;
+    margin: 16px 0;
+  }
+
+  .TextAbout,
+  .Service,
+  .TextProduct,
+  .TextMaterialMini {
+    max-width: 100%;
+  }
+
+  .TextProduct {
+    float: none;
+  }
+
+  .AccordionList {
+    display: grid;
+    gap: 12px;
+  }
+
+  .Accordion,
+  .AccBig {
+    grid-template-columns: 42px minmax(0, 1fr) 30px;
+    gap: 8px;
+  }
+
+  .Accordion .AccText,
+  .AccBig .AccText {
+    font-size: 20px;
+  }
+
+  .ContentArc {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .AccordionOpen.AccBig {
+    max-width: 100%;
+    margin-left: 42px;
+  }
+
+  .Accordions {
+    position: static;
+    width: 100%;
+  }
+
+  .LivinRoomImg {
+    display: block;
+    width: 100%;
+    margin: 24px 0 0;
+  }
+
+  .AchievmentDrop,
+  .ServiceAchivSection {
+    min-height: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .ServicePagePhoto {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+
+  .serviceCards {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cardBackground {
+    width: 100%;
+    padding: 20px 12px;
+  }
+
+  .DesignersStand {
+    justify-content: center;
+  }
+
+  .PersonalCard {
+    position: relative;
+    width: calc(50% - 12px);
+    height: auto;
+    min-height: 280px;
+  }
+
+  .PersonalPhoto {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-self: flex-end;
+  }
+
+  .AboutPerson {
+    width: calc(100% - 24px);
+    height: auto;
+    min-height: 72px;
+    margin-top: 0;
+    bottom: 12px;
+  }
+
+  .MaterialSection {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .MaterialFullWidth {
+    grid-column: 1 / -1;
+  }
+
+  .MaterialSection > .AboutFP {
+    grid-row: 1;
+    margin-top: 48px;
+  }
+
+  .MaterialSection > .MaterialText {
+    grid-row: 2;
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.35;
+  }
+
+  .MaterialSection > .TextMaterialMini {
+    grid-row: 3;
+    margin: 0;
+  }
+
+  .MaterialSection > .BtnMaterial {
+    grid-row: 4;
+    justify-self: start;
+    padding: 10px 18px;
+  }
+
+  .MaterialSection > .Images {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    float: none;
+    margin: 8px 0 0;
+  }
+
+  .MaterialSection .MaterialImg1 {
+    float: none;
+    margin: 0;
+  }
+
+  .MaterialSection .MaterialImgs {
+    display: contents;
+    float: none;
+    margin: 0;
+  }
+
+  .MaterialSection .MaterialImg2,
+  .MaterialSection .MaterialImg3 {
+    float: none;
+    margin: 0;
+  }
+
+  .MaterialSection .MaterialImg2 {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .MaterialSection .MaterialImg3 {
+    grid-column: 2;
+    grid-row: 6;
+  }
+
+  .MaterialSection .MaterialImg1 img,
+  .MaterialSection .MaterialImg2 img,
+  .MaterialSection .MaterialImg3 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .MaterialSection .MaterialImg1 img {
+    aspect-ratio: 16 / 10;
+  }
+
+  .MaterialSection .MaterialImg2 img,
+  .MaterialSection .MaterialImg3 img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .AnotherMargin {
+    margin-top: 0;
+  }
+
+  .FooterStart {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 24px 20px;
+  }
+
+  .FooterText {
+    width: 100%;
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .FooterMini,
+  .FotText {
+    max-width: 100%;
+  }
+
+  .EndPage {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .FooterLogo {
+    width: 120px;
+  }
+
+  .Email {
+    float: none;
+    width: 100%;
+  }
+
+  #EmailWtf {
+    width: 100%;
+  }
+
+  .StartOfPagesText {
+    font-size: clamp(36px, 8vw, 52px);
+  }
+
+  .StartOfPagesMiniText {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .StartOfPages img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 0 12px;
+  }
+
+  .headerText {
+    gap: 2px 12px;
+    font-size: 13px;
+  }
+
+  .MainText {
+    font-size: 38px;
+  }
+
+  .StartPage2 .BlueText,
+  .AchievmentDrop .BlueText {
+    padding: 10px 4px;
+  }
+
+  .StartPage2 .TextBlueDiv .TextBlueDiv,
+  .AchievmentDrop .TextBlueDiv .TextBlueDiv {
+    font-size: 23px;
+  }
+
+  .StartPage2 .UnderNumberText,
+  .AchievmentDrop .UnderNumberText {
+    font-size: 10px;
+  }
+
+  .PersonalCard {
+    width: 100%;
+    min-height: 340px;
+  }
+
+  .MaterialSection > .MaterialText {
+    font-size: 27px;
+  }
+}
