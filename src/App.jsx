@@ -9,6 +9,7 @@ import ServicesPage from './Pages/ServicesPage';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import OurTeam from './Pages/OurTeam';
 function App() {
 useEffect(() => {
     Aos.init(); 
@@ -22,6 +23,7 @@ useEffect(() => {
           <Route index element={<FirstPage />} />
           <Route path="/AboutUs" element = {<AboutUs/>}/>
           <Route path="/Services" element = {<ServicesPage/>}/>
+          <Route path="/OurTeam" element = {<OurTeam/>}/>
         </Route>
 
       </Routes>

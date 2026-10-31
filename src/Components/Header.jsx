@@ -10,7 +10,7 @@ const Header = () => {
             <Link to="/" onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Home</p></Link>
             <Link to="/AboutUs" onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">About Us</p></Link>
             <Link to = "/Services" onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Services</p></Link>
-            <Link onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Our Teams</p></Link>
+            <Link to = "/OurTeam" onClick={() => window.scrollTo(0, 0)}><p className="headerOptions">Our Teams</p></Link>
             <button className="btnHeader">Contact Us</button>
         </div>
     
