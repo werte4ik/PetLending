@@ -1,16 +1,56 @@
-# React + Vite
+# Dananz — дизайн интерьера
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Многостраничный сайт дизайн-студии Dananz. На сайте представлены интерьерные проекты, услуги, направления дизайна и команда специалистов.
 
-Currently, two official plugins are available:
+## Скриншоты
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Главная страница
 
-## React Compiler
+![Главная страница](./src/ForReadMe/MainPage.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### О студии
 
-## Expanding the ESLint configuration
+![Страница «О студии»](./src/ForReadMe/About.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Услуги
+
+![Страница услуг](./src/ForReadMe/Services.png)
+
+### Команда
+
+![Страница команды](./src/ForReadMe/OurTeams.png)
+
+## Страницы сайта
+
+- `/` — главная: информация о студии, услугах, коллекциях и материалах.
+- `/AboutUs` — о студии и её достижениях.
+- `/Services` — услуги и направления работы.
+- `/OurTeam` — команда и дизайнеры.
+
+## Технологии
+
+- React
+- React Router
+- Vite
+- AOS для анимации при прокрутке
+- ESLint
+
+## Запуск проекта
+
+Требуется установленный Node.js и npm.
+
+```bash
+npm install
+npm run dev
+```
+
+После запуска Vite выведет адрес локального сервера в терминал.
+
+## Команды
+
+```bash
+npm run dev      # Запустить сервер разработки
+npm run build    # Собрать production-версию в dist/
+npm run preview  # Просмотреть production-сборку
+npm run lint     # Проверить код с ESLint
+```
